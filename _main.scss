@@ -1,0 +1,46 @@
+$color-algo: red;
+
+
+%form-elements{
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+}
+
+
+h2{
+    color: $btn-primary;
+    font-size: 24px;
+    text-align: center;
+}
+
+main{
+    padding-top: 80px;
+    .articleContainer{
+        padding: 40px 10px;
+        .articuloIzquierdo{
+            float: left;
+            width: 50%;
+        }
+        .articuloDerecho{
+            display: inline-block;
+            width: 50%;    
+            color: $color-algo;
+        }
+    }
+
+    form{
+
+        label{
+            &.required{
+                color: red;
+            }
+            @extend %form-elements;
+            font-weight: bold;
+        }
+        input{
+            @extend %form-elements;
+        }
+        
+    }
+}
