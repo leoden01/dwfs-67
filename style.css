@@ -34,21 +34,22 @@ header nav .menu ul {
 }
 header nav .menu  ul li {
   position: relative;
-} 
+}
 header nav .menu  ul li:hover {
   background: #5a5a5a;
-} 
+}
 header nav .menu ul li a {
   position: relative;
   text-decoration: none;
-  color: #000;
+  /* color: #000; */
+  color: aqua;
   padding: 16px 5%;
   line-height: 28px;
   display: block;
 }
 header nav .menu  ul li a:hover {
   color: #fff;
-} 
+}
 /*animación del menu que se desplega*/
 header nav .menu input[type="checkbox"]:checked ~ ul {
   height: 240px;
@@ -113,18 +114,18 @@ header nav .menu input:checked ~ span:nth-last-child(2) {
   header nav .menu  ul li {
       padding: 5px 10px;
       display: inline-block;
-  } 
+  }
   header nav .menu  ul li:hover {
       background: unset;
       border-bottom: 2px solid black;
-  } 
+  }
   header nav .menu ul li a {
       padding: unset;
       line-height: unset;
   }
   header nav .menu  ul li a:hover {
       color: unset;
-  } 
+  }
   header nav .menu input {
       display: none;
   }
